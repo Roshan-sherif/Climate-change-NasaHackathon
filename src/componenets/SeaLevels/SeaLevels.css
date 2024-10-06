@@ -1,0 +1,48 @@
+.sea-level {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  h2 {
+    color: #34495e;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  iframe {
+    width: 100%; /* Full width of the parent */
+    height: 100%; /* Full height of the parent */
+    max-width: 100%; /* Prevent overflow */
+    max-height: 1000px; /* Set a maximum height */
+    margin: 20px 0; /* Add some spacing */
+    border: none; /* Remove the default border */
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0; /* Set height to 0 to use padding */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

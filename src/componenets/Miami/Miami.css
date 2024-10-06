@@ -1,0 +1,60 @@
+.climate-change-Miami {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #2c3e50;
+  }
+  
+  h2 {
+    color: #34495e;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0; /* Set height to 0 to use padding */
+    overflow: hidden;
+    margin: 20px 0; /* Add some spacing */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; /* Remove the default border */
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .image-gallery img {
+    width: 30%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,35 @@
+.climate-stories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  padding: 20px;
+}
+
+.story-card {
+  background: white; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease; 
+  width: 300px;
+}
+
+.story-card:hover {
+  transform: scale(1.05); 
+}
+
+.story-card img {
+  width: 100%; 
+  height: auto;}
+
+.story-card h3 {
+  margin: 15px; 
+  font-size: 1.5rem; 
+  color: #00796b; 
+}
+
+.story-card p {
+  margin: 0 15px 15px; 
+  color: #555; 
+}
